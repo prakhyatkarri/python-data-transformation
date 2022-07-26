@@ -1,0 +1,4 @@
+pyyaml==6.0
+pandas==1.4.3
+pyarrow==8.0.0
+avro==1.11.0

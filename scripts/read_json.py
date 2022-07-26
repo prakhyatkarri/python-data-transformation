@@ -1,4 +1,5 @@
 import json
+import pandas
 
 def read_json_data(file_path):
     '''
@@ -6,7 +7,13 @@ def read_json_data(file_path):
     '''
     try:
         with open(file_path, 'r') as file:
-            return json.load(file)
+            content = json.load(file)
+            lines = []
+
+            for row in content:
+                lines.append(row)
+            
+            return lines
     except Exception as e:
         print(f'Exception reading file at {file_path}: {e}')
     
