@@ -8,5 +8,5 @@
 | PARQUET | X | X |
 | AVRO | X | X |
 
-Please refer to `scripts` folder for Read/Write Python Scripts. /
+Please refer to `scripts` folder for Read/Write Python Scripts. \
 Please refer to `data` folder for sample datasets.
