@@ -1,5 +1,7 @@
 # python-data-transformation
 
+## Purpose of this repo is to have sample python code snippets to read/write below file types
+
 |Support Types| Read | Write |
 | -- | -- | -- |
 | JSON | X | X |
